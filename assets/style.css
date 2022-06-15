@@ -10,11 +10,15 @@ body{
 .navBar{
     height: 100px;
 }
+.teste{
+    display: flex;
+
+    justify-content: center;
+}
 @media (min-width: 600px){
     .content{
         margin-top: 50px;
         margin-bottom: 50px;
-        margin-left: 30.46875%;
         width: 400px;
         height: 400px;
         background-color: #eee;
@@ -36,7 +40,6 @@ body{
     .content{
         margin-top: 50px;
         margin-bottom: 50px;
-        margin-left: 5%;
         width: 90%;
         height: 400px;
         background-color: #eee;
