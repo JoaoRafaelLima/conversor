@@ -12,42 +12,39 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><b>01</b> Conversor</a>
+        <a class="navbar-brand" href="#">Conversor</a>
         <div class="switch">
             <!-- <div class="custom-control custom-switch">
                 <input type="checkbox" value="light" onChange="teste()" class="custom-control-input" id="customSwitches">
                 <label class="custom-control-label" for="customSwitches">Dark Theme</label>
             </div> -->
     </nav>
-    <div class="teste">
-
-        <div class="content">
-            <div class="block">
-                <select name="" id="select" class="browser-default custom-select">
-                    <option value="2">Binario</option>
-                    <option value="8">Octal</option>
-                    <option value="10">Decimal</option>
-                    <option value="16">HexaDecimal</option>
-                </select>
-                <input id="inp" class="form-control input-v" type="text">
-                <div class="buttons">
-                    <button type="button" onClick="comverter(2)" class="sumbit btn btn-secondary">Binario</button>
-                    <button type="button" onClick="comverter(8)" class="sumbit btn btn-secondary">Octal</button>
-                    <button type="button" onClick="comverter(10)" class="sumbit btn btn-secondary">Decimal</button>
-                    <button type="button" onClick="comverter(16)" class="sumbit btn btn-secondary">Hexadecimal</button>
-                 
-                </div>
-                
-                <div>
-                    <hr>
-                    <p id="result">0</p>
-                    <hr>
-                </div>
-            </div>        
+    <div class="content">
+        <div class="block">
+            <select name="" id="select" class="browser-default custom-select">
+                <option value="2">Binario</option>
+                <option value="8">Octal</option>
+                <option value="10">Decimal</option>
+                <option value="16">HexaDecimal</option>
+            </select>
+            <input id="inp" class="form-control input-v" type="text">
+            <div class="buttons">
+                <button type="button" onClick="comverter(2)" class="sumbit btn btn-secondary">Binario</button>
+                <button type="button" onClick="comverter(8)" class="sumbit btn btn-secondary">Octal</button>
+                <button type="button" onClick="comverter(10)" class="sumbit btn btn-secondary">Decimal</button>
+                <button type="button" onClick="comverter(16)" class="sumbit btn btn-secondary">Hexadecimal</button>
+             
+            </div>
             
-        </div>
+            <div>
+                <hr>
+                <p id="result">0</p>
+                <hr>
+            </div>
+        </div>        
         
     </div>
+    
     <div class="content-text">
         <p>Converta sistemas numericos como <strong>binario</strong>, <strong>decimal</strong>,
         <strong>octal</strong>, <strong>hexadecimal</strong> de forma simples e facil
@@ -55,7 +52,7 @@
     </div>
     <footer>
         <p>
-            © João Rafael de Lima Alves 2020
+            © multiconvesor.com.br 2020
         </p>
     </footer>
 </body>
