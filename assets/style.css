@@ -10,7 +10,7 @@ body{
 .navBar{
     height: 100px;
 }
-.teste{
+.page{
     display: flex;
 
     justify-content: center;
