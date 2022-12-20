@@ -1,24 +1,14 @@
 
 
-function teste (){
-    let theme = document.getElementById("customSwitches");
-    if (theme.value == "light") {
-        theme.value = "dark";
-    }else if (theme.value == "dark"){
-        theme.value = "light";
-    }
-    alert(theme.value);
-}
 
-function comverter(base){
+function converter(base){
     let select = document.getElementById("select");
     let option = select.options[select.selectedIndex].value;
 
-    let input = document.getElementById("inp");
+    let input = document.getElementById("value");
     let resultado = "";
 
     if (option == "2"){      //         binario 
-        console.log("if base 2")
         if (base == 8){
             resultado = binarioParaOctal(input.value);
         }
@@ -76,7 +66,7 @@ function comverter(base){
             resultado = input.value;
         }
     }
-    let result = document.getElementById("result");
+    let result = document.getElementById("resultado");
     result.innerHTML = resultado; 
 }
 
@@ -131,7 +121,7 @@ function binarioParaDecimal(num){
         res+=mult;
         potencia-=1;
     }
-    console.log("res: "+res);
+
     return res;
     
 }
@@ -147,7 +137,6 @@ function binarioParaHexadecimal(num){
     
             
         }else{
-            console.log("acabou");
             break;
         }
         cont+=1;
@@ -185,7 +174,7 @@ function binarioParaHexadecimal(num){
             conjunto = "";
         }
     }
-    console.log(res);
+
     return res;
 
 }
@@ -210,7 +199,6 @@ function octalParaBinario(num){
             }
         }
         binario = tmp.reverse().join("");
-        console.log("binario "+binario);
         res+=binario;
     }
     lista = res.split("").reverse();
@@ -223,7 +211,7 @@ function octalParaBinario(num){
     
             
         }else{
-            console.log("acabou");
+         
             break;
         }
         cont+=1;
@@ -246,7 +234,7 @@ function octalParaDeciaml(num) {
         res+=mult;
         potencia-=1;
     }
-    console.log("res: "+res);
+
     return res;
 
 }
@@ -272,7 +260,7 @@ function decimalParaBinario(num){
         num = num/2|0; 
     }
     binString = binString.split("").reverse().join("");
-    console.log(binString);
+
     return binString;
 }
 
@@ -315,7 +303,7 @@ function hexaDecimalParaBinario(num){
                 lista2.push("0");
                 
             }else{
-                console.log("acabou");
+          
                 res+=lista2.reverse().join("");
                 break;
             }

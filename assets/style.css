@@ -12,7 +12,6 @@ body{
 }
 .page{
     display: flex;
-
     justify-content: center;
 }
 @media (min-width: 600px){
@@ -59,7 +58,7 @@ body{
 }
 
 
-#result{
+#resultado{
     margin-left: 10%; 
 }
 
@@ -69,7 +68,7 @@ body{
     margin-bottom: 10px;
 }
 
-.input-v{
+#value{
     font-size: 18px;
     font-family: sans-serif;
     width: 80%;
