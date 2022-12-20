@@ -7,6 +7,11 @@
 - hexadecimal
 
 **Esse é o link para acessar o projeto:** [conversor](https://joaorafaellima.github.io/conversor/)
-Ele está hospedado por meio do github pages
+
+Ele está hospedado por meio do github-pages
 
  
+**As tecnologias utilizadas foram:**
+- javascript
+- html5
+- css3
